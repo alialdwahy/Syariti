@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="422dp"
+        android:layout_height="787dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/typ"
+            android:layout_width="261dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="74dp"
+            android:ems="10"
+            android:hint="نوع السيارة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/nn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/nn"
+            android:layout_width="261dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="74dp"
+            android:ems="10"
+            android:hint="اسم السيارة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/del"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/typ" />
+
+        <EditText
+            android:id="@+id/del"
+            android:layout_width="261dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="74dp"
+            android:ems="10"
+            android:hint="رقم السيارة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/noo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nn" />
+
+        <EditText
+            android:id="@+id/noo"
+            android:layout_width="262dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:ems="10"
+            android:hint="موديل السيارة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/trwraz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/del" />
+
+        <EditText
+            android:id="@+id/trwraz"
+            android:layout_width="262dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:ems="10"
+            android:hint="المسافة المقطوعة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/tyr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noo" />
+
+        <EditText
+            android:id="@+id/tyr"
+            android:layout_width="261dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:ems="10"
+            android:hint="الحوادث"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/trt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trwraz" />
+
+        <EditText
+            android:id="@+id/trt"
+            android:layout_width="263dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginEnd="71dp"
+            android:layout_marginRight="71dp"
+            android:ems="10"
+            android:hint="فئة السيارة"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/ac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tyr" />
+
+        <EditText
+            android:id="@+id/ac"
+            android:layout_width="263dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="71dp"
+            android:ems="10"
+            android:hint="الترخيص"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/prj"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trt" />
+
+        <EditText
+            android:id="@+id/prj"
+            android:layout_width="264dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="71dp"
+            android:ems="10"
+            android:hint="السعر"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ac" />
+
+        <TextView
+            android:id="@+id/teViw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="30dp"
+            android:text="نوع القير"
+
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/teew"
+            app:layout_constraintStart_toEndOf="@+id/chipGroup1"
+            app:layout_constraintTop_toBottomOf="@+id/prj" />
+
+        <TextView
+            android:id="@+id/teew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="نوع الطلب"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/bun"
+            app:layout_constraintEnd_toStartOf="@+id/imagec"
+            app:layout_constraintTop_toBottomOf="@+id/teViw" />
+
+        <Button
+            android:id="@+id/butocx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="126dp"
+            android:background="@drawable/round_bg"
+            android:text="تعديل"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buton" />
+
+        <Button
+            android:id="@+id/bun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginEnd="126dp"
+            android:layout_marginBottom="126dp"
+            android:background="@drawable/round_bg"
+            android:text="الغاء"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/butocx"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/chipGroup1"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="36dp"
+
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toTopOf="@+id/chiroup2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prj">
+
+            <RadioButton
+                android:id="@+id/radion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عادي"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/raditn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اوتومتيك"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/chiroup2"
+            android:layout_width="72dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="11dp"
+            app:layout_constraintBottom_toTopOf="@+id/buton"
+            app:layout_constraintEnd_toStartOf="@+id/texiew"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chipGroup1">
+
+            <RadioButton
+                android:id="@+id/rtton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بيع"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ايجار"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomN"
+            android:layout_width="387dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="640dp"
+            app:itemBackground="@color/colorPrimary1"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.321"
+            app:menu="@menu/menu_navigation" />
+
+        <ImageView
+            android:id="@+id/imagec"
+            android:layout_width="100dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/butocx"
+            app:layout_constraintStart_toEndOf="@+id/teViw"
+            app:layout_constraintTop_toBottomOf="@+id/prj"
+            app:srcCompat="@drawable/logoap" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="22dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/butocx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintStart_toEndOf="@+id/imagec"
+            app:layout_constraintTop_toBottomOf="@+id/prj"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

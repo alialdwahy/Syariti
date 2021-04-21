@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#cfd8dc" >
+
+
+
+
+    <item
+        android:id="@+id/homec"
+        android:title=""
+        android:icon="@drawable/ic_house" />
+
+    <item
+        android:id="@+id/addcar"
+        android:title=""
+        android:icon="@drawable/ic_add"/>
+
+    <item
+        android:id="@+id/updat"
+        android:title=""
+        android:icon="@drawable/ic_updatec"/>
+    <item
+        android:id="@+id/dele"
+        android:title=""
+        android:icon="@drawable/ic_delete"/>
+    <item
+        android:id="@+id/bnk"
+        android:title=""
+        android:icon="@drawable/ic_sign_out"/>
+
+</menu>

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="badge_left_margin">1dp</dimen>
+    <dimen name="space_item_icon_default_size" />
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/ren"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round_bg"
+        android:text="الغاء"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sal"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round_bg"
+        android:text="اتمام العملية"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toEndOf="@+id/ren" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="375dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="11dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logolo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="164dp"
+        android:layout_height="422dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="21dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TextView
+            android:id="@+id/textVi"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="اسم السيارة"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="نوع السيارة"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="موديل السيارة"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="سعر السيارة"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView1341"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="المسافة المقطوعة"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="الترخيص"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="الحوادث"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="نوع القير "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="حالة الطلب"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="158dp"
+        android:layout_height="421dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="21dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ren"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView6"
+
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView7"
+
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#76ff03"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/linc"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:id="@+id/accdent"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#4b636e"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#4b636e"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="TextView"
+            android:textColor="#c30000"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
